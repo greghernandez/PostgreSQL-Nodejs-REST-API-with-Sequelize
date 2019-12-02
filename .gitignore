@@ -2,3 +2,4 @@ node_modules
 dist
 enviroments.dev.js
 .idea
+.env

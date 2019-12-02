@@ -1,10 +1,11 @@
-import Sequelize from 'sequelize'
-import { sequelize } from '../database/database'
+import { Sequelize } from 'sequelize'
+import { sequelize } from '../config/database'
 
 const Account = sequelize.define('account', {
     id: {
         type: Sequelize.INTEGER,
-        primaryKey: true
+        primaryKey: true,
+        autoIncrement: true
     },
     email: {
         type: Sequelize.STRING
