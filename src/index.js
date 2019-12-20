@@ -1,4 +1,3 @@
-console.log('Hola')
 import app from './app'
 
 async function main () {
