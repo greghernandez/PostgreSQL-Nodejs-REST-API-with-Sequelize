@@ -1,6 +1,5 @@
-import express, { json } from 'express';
-import morgan from 'morgan';
-require('dotenv').config();
+import express, { json } from 'express'
+import morgan from 'morgan'
 
 // Importing Routes
 import accountsRoutes from './routes/accounts'

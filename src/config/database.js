@@ -1,5 +1,8 @@
+require('dotenv').config()
+
 import { Sequelize } from 'sequelize'
 
+console.log('Variable de entorno: ', process.env.DB_URI)
 export const sequelize = new Sequelize(process.env.DB_URI, {
   dialectOptions: {
     ssl: true

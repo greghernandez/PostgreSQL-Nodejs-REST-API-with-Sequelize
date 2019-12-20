@@ -1,4 +1,5 @@
-import app from './app';
+console.log('Hola')
+import app from './app'
 
 async function main () {
     await app.listen(4000)
